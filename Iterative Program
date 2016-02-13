@@ -1,0 +1,49 @@
+Itetrative Programming
+   choose variable that 'count'
+   initialize outside the loop
+   set up end test(includes variable to check it)
+   construct block(set of instructions - change the variable)
+   what to do when done
+
+Tuple - ordered sequence of elements(immutable:cannot change)
+ex) too=(1,2,3,4)
+ selection too[1]
+ slicing too[2:] [starting point:end point minus 1 ]
+
+Decomposition and Abstracting
+
+Functions
+  making a new primitive
+  formal structure of function
+  def name(variable):
+      code
+      return Value(when nothing, use None)
+local binding of variable in a function does not effect global binding
+raw_input("message") -> to get a input 
+
+"""explanation about the function***
+
+Recurrsion
+ inductive step - breakdown the program in to a simpler problem with same form
+ Palindrome program
+
+Numbers in python
+integer
+arbitrarily long integer
+float - resembling real numbers
+
+python rounds number (in binary) at the 17th digit -> making slight errors.
+worry about == when using float
+ex) sqrt(2) * sqrt(2)==2 is false
+there for writing library like abs(x-y)<epsilon(sufficiently small number to say they are equal) will be a great help
+
+Using assert can really help 
+ex) assert x>=0, <string>
+
+Non-Scalar - Tuples
+             Strings
+they are immutable
+
+mutable type - List
+<somelist>.append(element of <somelist>)
+<somelist>.remove(element of <somelist>)
